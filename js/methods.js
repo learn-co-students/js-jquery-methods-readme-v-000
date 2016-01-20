@@ -31,6 +31,10 @@ function findItByClass(selector){
   return $(selector).hasClass("flatironLink");
 }
 
+function animateIt(){
+  $('#box').animate({height: "500px"});
+}
+
 
 function formValue(){
   return $('input:last').val();
