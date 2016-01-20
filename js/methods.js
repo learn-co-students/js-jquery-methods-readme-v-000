@@ -23,5 +23,15 @@ function fadeIt(){
 }
 
 function fadeItOut(){
-  $('p:first-child + p').fadeOut();
+  $('p:first-child + p').fadeOut(0);
+  return $('p:first-child + p');
+}
+
+function findItByClass(selector){
+  return $(selector).hasClass("flatironLink");
+}
+
+
+function formValue(){
+  return $('input:last').val();
 }
