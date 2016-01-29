@@ -1,0 +1,9 @@
+.iAmFancy {
+  background-color: #FFD700;
+  border: 10px solid blue;
+}
+
+#hidden, #favorite-snacks {
+  display: none;
+}
+
