@@ -7,3 +7,8 @@
   display: none;
 }
 
+.myBorder {
+  border-color: blue;
+  border-width: 5px;
+  border-style: dotted;
+}
