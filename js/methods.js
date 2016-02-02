@@ -1,5 +1,4 @@
 
-
 function fancySchmancy(){
   $('#bacon').addClass("iAmFancy");
   return $('.iAmFancy');
@@ -39,3 +38,4 @@ function animateIt(){
 function formValue(){
   return $('input:last').val();
 }
+
