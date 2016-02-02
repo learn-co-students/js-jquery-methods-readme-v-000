@@ -218,7 +218,7 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 
 + Create a function `addText` which accepts a string as a parameter. The function should append the parameter to the 2nd paragraph. The function should return the `p` tag.
 
-+ Create a function `showImage`, which shows the hidden image of the dolphin, using the `show` function. The function does not need to have a return value.
++ Create a function `showDolphin`, which shows the hidden image of the dolphin, using the `show` function. The function does not need to have a return value.
 
 + Create a function `hideImage` which hides the gif of a man getting hit in the face with a pie. The function does not need to have a return value. 
 
@@ -239,3 +239,5 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 + [jQuery DOM Insertion Methods](http://api.jquery.com/category/manipulation/dom-insertion-inside/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme' title='jQuery Methods'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
