@@ -2,7 +2,7 @@
 
 function fancySchmancy(){return $('p#bacon').addClass('iAmFancy');}
 
-function addText(str){return $('p:nth-of-type(2)').append(str);}
+function addText(str){return $('p:nth-of-type(2)').append(str);} 
 
 function showDolphin(){ $('#hidden').show(); }
 
