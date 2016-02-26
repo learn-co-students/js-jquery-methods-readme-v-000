@@ -109,7 +109,7 @@ We can use jQuery to add special effects (like animations) to our web page.
 
 The animate function allows you to create a custom animation on any HTML element. The function accepts a CSS object as a parameter.
 
-Let's say we have an image of a bird on our website that we want get bigger, we could achieve that with the animate function:
+Let's say we have an image of a bird on our website that we want to get bigger, we could achieve that with the animate function:
 
 HTML:
 ```html
