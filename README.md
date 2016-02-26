@@ -6,7 +6,7 @@
 
 ## Intro
 
-Now that we know about jQuery selectors, we know how to select HTML elements to be able to manipulate them. But how do actually start doing the manipulating? Enter jQuery methods, a quick and easy way to apply effects to DOM elements.
+Now that we know about jQuery selectors, we know how to select HTML elements to be able to manipulate them. But how do you actually start doing the manipulating? Enter jQuery methods, a quick and easy way to apply effects to DOM elements.
 
 ## Attribute Methods
 
