@@ -32,7 +32,7 @@ function fadeIt(){
 }
 
 function fadeItOut(){
-  $('p:first-child + p').fadeOut(0);
+  $('p:first-child + p').fadeOut(3000);
     return $('p:first-child + p');
 }
 
