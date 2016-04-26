@@ -32,7 +32,7 @@ describe('jQuery Methods', function() {
   });
 
 
-  it('#fadeIt shows the list of favorite snacks', function() {
+  it('#fadeIt shows the list of favorite snacks', function() { 
     fadeIt();
     expect($('#favorite-snacks').attr('style')).toBe("display: block; opacity: 0;");
   });
