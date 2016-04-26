@@ -227,7 +227,7 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 
 + Create a function `fadeItOut` which hides the second paragraph using the `fadeOut` function. You'll need to pass `0` to the `fadeOut` function so that the image fades immediately. Otherwise, you'll have issues with the tests. The function does not need to have a return value.
 
-+ Create a function called `findItByClass` which accepts a string of a jQuery selector as a parameter. The function should use the `hasClass` function to check if the `a` tag has the class `flatironLink`. The function should the evaluation of the `hasClass` function.
++ Create a function called `findItByClass` which accepts a string of a jQuery selector as a parameter. The function should use the `hasClass` function to check if the `a` tag has the class `flatironLink`. The function should return the evaluation of the `hasClass` function.
 
 + Create a function called `formValue` that does not accept any parameters. The function should use the `val` method to retrieve the value of the last `input` tag. The function should return the value of the `value` attribute
 
@@ -241,3 +241,5 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme' title='jQuery Methods'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-jquery-methods-readme'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
