@@ -212,7 +212,7 @@ Now our HTML looks something like this:
 ```
 
 ## Instructions
-You'll be coding your solutions in `js/methods.js`. There are tests to run to make sure you're solutions work as expected. Styling is defined in `css/style.css`. You can test your code in the console by opening up `index.html` in the browser.
+You'll be coding your solutions in `js/methods.js`. There are tests to run to make sure your solutions work as expected. Styling is defined in `css/style.css`. You can test your code in the console by opening up `index.html` in the browser.
 
 + Create a function `fancySchmancy` which does not accept any parameters. The function should use the `addClass` function to add the class `iAmFancy` (defined in `css/style.css`) to the `p` tag with the ID `bacon`. The function should return the `p` tag.
 
