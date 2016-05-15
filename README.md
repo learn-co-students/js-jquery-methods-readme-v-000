@@ -47,7 +47,7 @@ Our resulting HTML will look like this:
 
 ### Val
 Let's say you're building a form for an online order. Typically, you give your user an option to check if their shipping address is different than their billing address. If they click the box that they are different addresses, then they would expect an additional form to fill out for shipping address. In order to achieve this, you would want to check the `value` of the checkbox, and trigger the form to be filled out if it is checked with the `val` function.
-The `val()` function returns the `value` attribute for an HTML element. 
+The `val()` function returns the `value` attribute for an HTML element.
 
 Given the following HTML:
 
@@ -63,7 +63,7 @@ We can select the value of an input with:
 $('input').val();
 ```
 
-It's important to note that this function returns the very first match, so it would find the first input field and return `"choice a"`. 
+It's important to note that this function returns the very first match, so it would find the first input field and return `"choice a"`.
 
 We could change our selector to look for the selected checkbox:
 
@@ -192,7 +192,7 @@ The methods under this category allow us to insert new content into our site.
 
 ### append
 
-The append method adds specific content to the end of the element. 
+The append method adds specific content to the end of the element.
 
 HTML:
 ```html
@@ -220,7 +220,7 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 
 + Create a function `showDolphin`, which shows the hidden image of the dolphin, using the `show` function. The function does not need to have a return value.
 
-+ Create a function `hideImage` which hides the gif of a man getting hit in the face with a pie. The function does not need to have a return value. 
++ Create a function `hideImage` which hides the gif of a man getting hit in the face with a pie. The function does not need to have a return value.
 
 
 + Create a function `fadeIt` which uses `fadeIn` to show the div with the list of favorite snacks. The function does not need to have a return value.
