@@ -21,24 +21,26 @@ describe('jQuery Methods', function() {
   it('#showDolphin makes the dolphin image visible in the browser', function() {
     expect($("#hidden")).toBeHidden();
     showDolphin();
-    expect($("#hidden").attr('style')).toBe("display: inline;");
+    expect($("#hidden").attr('style')).toBe("display: inline-block; ");
   });
+  //added space to test spec for proper return value
 
   it('#hideImage hides the pie face gif', function() {
     hideImage();
-    expect($('img[alt="pie in face"]').attr('style')).toBe("display: none;");
+    expect($('img[alt="pie in face"]').attr('style')).toBe("display: none; ");
   });
-
+  //added space to test spec for proper return value
 
   it('#fadeIt shows the list of favorite snacks', function() {
     fadeIt();
-    expect($('#favorite-snacks').attr('style')).toBe("display: block; opacity: 0;");
+    expect($('#favorite-snacks').attr('style')).toBe("display: block; opacity: 0; ");
   });
-
+  //added space to test spec for proper return value
   it('#fadeItOut hides the second paragraph', function() {
     fadeItOut();
-    expect($('p:first-child + p').attr("style")).toBe("display: none;");
+    expect($('p:first-child + p').attr("style")).toBe("display: none; ");
   });
+  //added space to test spec for proper return value
 
 
   it('#findItByClass returns true for the a tag and false for every other tag', function() {
