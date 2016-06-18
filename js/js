@@ -1,0 +1,11 @@
+
+function fancySchmancy() {
+  $('#bacon').addClass('iAmFancy');
+  return $('.iAmFancy');
+}
+
+function addText(toadd) {
+  $('p:eq(1)').append(toadd);
+  return $('p:eq(1)');
+
+}
