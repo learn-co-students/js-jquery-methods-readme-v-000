@@ -21,23 +21,23 @@ describe('jQuery Methods', function() {
   it('#showDolphin makes the dolphin image visible in the browser', function() {
     expect($("#hidden")).toBeHidden();
     showDolphin();
-    expect($("#hidden").attr('style')).toBe("display: inline;");
+    expect($("#hidden").attr('style')).toBe("display: inline; ");
   });
 
   it('#hideImage hides the pie face gif', function() {
     hideImage();
-    expect($('img[alt="pie in face"]').attr('style')).toBe("display: none;");
+    expect($('img[alt="pie in face"]').attr('style')).toBe("display: none; ");
   });
 
 
   it('#fadeIt shows the list of favorite snacks', function() {
     fadeIt();
-    expect($('#favorite-snacks').attr('style')).toBe("display: block; opacity: 0;");
+    expect($('#favorite-snacks').attr('style')).toBe("display: block; opacity: 0; ");
   });
 
   it('#fadeItOut hides the second paragraph', function() {
     fadeItOut();
-    expect($('p:first-child + p').attr("style")).toBe("display: none;");
+    expect($('p:first-child + p').attr("style")).toBe("display: none; ");
   });
 
 
