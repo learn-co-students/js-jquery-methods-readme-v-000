@@ -165,7 +165,7 @@ We easily hide it:
 
 ```js
 $('p').hide(); // hides the paragraph immediately
-$('p').hide(4000); //gradually shrinks and hides the image over 4 seconds
+$('p').hide(4000); //gradually shrinks and hides the paragraph over 4 seconds
 ```
 
 ### show
