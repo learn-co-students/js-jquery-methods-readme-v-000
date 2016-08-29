@@ -124,7 +124,7 @@ $('img').animate({
 
 ### fadeOut
 
-The `fadeOut` function makes the select elements the function is called on opaque.
+The `fadeOut` function changes the opacity of the selected elements.
 
 Let's take the bird image again:
 
