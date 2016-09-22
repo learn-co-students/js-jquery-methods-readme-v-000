@@ -6,15 +6,15 @@
 
 ## Intro
 
-Now that we know about jQuery selectors, we know how to select HTML elements to be able to manipulate them. But how do actually start doing the manipulating? Enter jQuery methods, a quick and easy way to apply effects to DOM elements.
+Now that we know about jQuery selectors, we know how to select HTML elements to be able to manipulate them. But how do you actually start doing the manipulating? Enter jQuery methods, a quick and easy way to apply effects to DOM elements.
 
 ## Attribute Methods
 
-Attribute methods retrieve the value of a DOM attribute and set that value based on a specific parameter. There are a ton of attribute methods, including (but not limited to `addClass`, `removeClass`, `toggleClass`, and `val`)
+Attribute methods retrieve the value of a DOM attribute and set that value based on a specific parameter. There are a ton of attribute methods, including (but not limited to) `addClass`, `removeClass`, `toggleClass`, and `val`.
 
 ### addClass
 
-The `addClass()` function is called on a specific HTML element, and adds a class (passed in as a parameter) to that element.
+The `addClass()` function is called on a specific HTML element and adds a class (passed in as a parameter) to that element.
 
 Given the following HTML:
 
@@ -109,7 +109,7 @@ We can use jQuery to add special effects (like animations) to our web page.
 
 The animate function allows you to create a custom animation on any HTML element. The function accepts a CSS object as a parameter.
 
-Let's say we have an image of a bird on our website that we want get bigger, we could achieve that with the animate function:
+Let's say we have an image of a bird on our website that we want to get bigger, we could achieve that with the animate function:
 
 HTML:
 ```html
@@ -124,7 +124,7 @@ $('img').animate({
 
 ### fadeOut
 
-The `fadeOut` function makes the select elements the function is called on opaque.
+The `fadeOut` function changes the opacity of the selected elements.
 
 Let's take the bird image again:
 
@@ -165,7 +165,7 @@ We easily hide it:
 
 ```js
 $('p').hide(); // hides the paragraph immediately
-$('p').hide(4000); //gradually shrinks and hides the image over 4 seconds
+$('p').hide(4000); //gradually shrinks and hides the paragraph over 4 seconds
 ```
 
 ### show
@@ -212,7 +212,7 @@ Now our HTML looks something like this:
 ```
 
 ## Instructions
-You'll be coding your solutions in `js/methods.js`. There are tests to run to make sure you're solutions work as expected. Styling is defined in `css/style.css`. You can test your code in the console by opening up `index.html` in the browser.
+You'll be coding your solutions in `js/methods.js`. There are tests to run to make sure your solutions work as expected. Styling is defined in `css/style.css`. You can test your code in the console by opening up `index.html` in the browser.
 
 + Create a function `fancySchmancy` which does not accept any parameters. The function should use the `addClass` function to add the class `iAmFancy` (defined in `css/style.css`) to the `p` tag with the ID `bacon`. The function should return the `p` tag.
 
@@ -222,12 +222,11 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 
 + Create a function `hideImage` which hides the gif of a man getting hit in the face with a pie. The function does not need to have a return value. 
 
-
 + Create a function `fadeIt` which uses `fadeIn` to show the div with the list of favorite snacks. The function does not need to have a return value.
 
 + Create a function `fadeItOut` which hides the second paragraph using the `fadeOut` function. You'll need to pass `0` to the `fadeOut` function so that the image fades immediately. Otherwise, you'll have issues with the tests. The function does not need to have a return value.
 
-+ Create a function called `findItByClass` which accepts a string of a jQuery selector as a parameter. The function should use the `hasClass` function to check if the `a` tag has the class `flatironLink`. The function should the evaluation of the `hasClass` function.
++ Create a function called `findItByClass` which accepts a string of a jQuery selector as a parameter. The function should use the `hasClass` function to check if the `a` tag has the class `flatironLink`. The function should return the evaluation of the `hasClass` function.
 
 + Create a function called `formValue` that does not accept any parameters. The function should use the `val` method to retrieve the value of the last `input` tag. The function should return the value of the `value` attribute
 
@@ -239,5 +238,3 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 + [jQuery DOM Insertion Methods](http://api.jquery.com/category/manipulation/dom-insertion-inside/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme' title='jQuery Methods'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
