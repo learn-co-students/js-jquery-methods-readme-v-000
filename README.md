@@ -10,11 +10,11 @@ Now that we know about jQuery selectors, we know how to select HTML elements to 
 
 ## Attribute Methods
 
-Attribute methods retrieve the value of a DOM attribute and set that value based on a specific parameter. There are a ton of attribute methods, including (but not limited to `addClass`, `removeClass`, `toggleClass`, and `val`)
+Attribute methods retrieve the value of a DOM attribute and set that value based on a specific parameter. There are a ton of attribute methods, including (but not limited to) `addClass`, `removeClass`, `toggleClass`, and `val`.
 
 ### addClass
 
-The `addClass()` function is called on a specific HTML element, and adds a class (passed in as a parameter) to that element.
+The `addClass()` function is called on a specific HTML element and adds a class (passed in as a parameter) to that element.
 
 Given the following HTML:
 
@@ -222,7 +222,6 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 
 + Create a function `hideImage` which hides the gif of a man getting hit in the face with a pie. The function does not need to have a return value. 
 
-
 + Create a function `fadeIt` which uses `fadeIn` to show the div with the list of favorite snacks. The function does not need to have a return value.
 
 + Create a function `fadeItOut` which hides the second paragraph using the `fadeOut` function. You'll need to pass `0` to the `fadeOut` function so that the image fades immediately. Otherwise, you'll have issues with the tests. The function does not need to have a return value.
@@ -239,7 +238,3 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 + [jQuery DOM Insertion Methods](http://api.jquery.com/category/manipulation/dom-insertion-inside/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme' title='jQuery Methods'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/js-jquery-methods-readme'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
