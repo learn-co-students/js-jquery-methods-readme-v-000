@@ -34,7 +34,7 @@ And this CSS:
 In our HTML, we never applied the class `myBorder` to our `p` tag. But let's say we wanted to do that programmatically with jQuery:
 
 ```js
-$("p").addClass("myBorder").
+$("p").addClass("myBorder");
 ```
 
 We use `$("p")` as our selector to select the `p` tag, and then we call the `addClass` function, and pass it the paramater `"myBorder"`.
@@ -238,3 +238,5 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 + [jQuery DOM Insertion Methods](http://api.jquery.com/category/manipulation/dom-insertion-inside/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme' title='jQuery Methods'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-jquery-methods-readme'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
