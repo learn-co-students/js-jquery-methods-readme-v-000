@@ -237,6 +237,4 @@ You'll be coding your solutions in `js/methods.js`. There are tests to run to ma
 + [jQuery Effects Methods](https://api.jquery.com/category/effects/)
 + [jQuery DOM Insertion Methods](http://api.jquery.com/category/manipulation/dom-insertion-inside/)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-methods-readme' title='jQuery Methods'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
-
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-jquery-methods-readme'>jQuery Methods</a> on Learn.co and start learning to code for free.</p>
