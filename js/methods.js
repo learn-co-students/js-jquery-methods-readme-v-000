@@ -1,11 +1,13 @@
 'use strict';
 
 function fancySchmancy() {
-  return $('p#bacon').addClass("iAmFancy")
+  $('p#bacon').addClass("iAmFancy")
+  return $('.iAmFancy')
 }
 
-function addText(string) {
-  return $('p:last').append(string)
+function addText(sentence) {
+  $('p:first-child + p').append(sentence)
+  return $('p:first-child + p')
 }
 
 function showDolphin() {
