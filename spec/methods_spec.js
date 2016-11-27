@@ -18,27 +18,10 @@ describe('jQuery Methods', function() {
     expect(text).toEqual(textShouldBe);
   });
 
-  it('#showDolphin makes the dolphin image visible in the browser', function() {
-    expect($("#hidden")).toBeHidden();
-    showDolphin();
-    expect($("#hidden").attr('style')).toBe("display: inline;");
-  });
-
-  it('#hideImage hides the pie face gif', function() {
-    hideImage();
-    expect($('img[alt="pie in face"]').attr('style')).toBe("display: none;");
-  });
 
 
-  it('#fadeIt shows the list of favorite snacks', function() {
-    fadeIt();
-    expect($('#favorite-snacks').attr('style')).toBe("display: block; opacity: 0;");
-  });
 
-  it('#fadeItOut hides the second paragraph', function() {
-    fadeItOut();
-    expect($('p:first-child + p').attr("style")).toBe("display: none;");
-  });
+
 
 
   it('#findItByClass returns true for the a tag and false for every other tag', function() {
