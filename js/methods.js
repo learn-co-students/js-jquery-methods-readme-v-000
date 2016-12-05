@@ -34,5 +34,5 @@ function findItByClass(selector){
 
 function formValue(){
     //returns value of last input tag
-  return $('input:last').val()
+  return $('input:last').val();
 }
