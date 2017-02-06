@@ -6,7 +6,7 @@ describe('jQuery Methods', function() {
   });
 
   it('#fancyShmancy returns the updated paragraph', function() {
-    var text = fancySchmancy()[0].innerHTML;
+    var text = fancyShmancy()[0].innerHTML;
     var textShouldBe = $('.iAmFancy')[0].innerHTML;
     expect(text).toEqual(textShouldBe);
   });
